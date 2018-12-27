@@ -4,9 +4,9 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -57,19 +57,22 @@ public class MainActivity extends AppCompatActivity {
             callbackManager = CallbackManager.Factory.create();
             loginButton.setReadPermissions(Arrays.asList("email"));
 
-         /*   try {
+            try {
                 PackageInfo info = getPackageManager().getPackageInfo("com.ninositsolution.facebookintegration", PackageManager.GET_SIGNATURES);
                 for (Signature signature : info.signatures)
                 {
                     MessageDigest digest = MessageDigest.getInstance("SHA");
                     digest.update(signature.toByteArray());
-                    Log.d("Keyhash", Base64.encodeToString(digest.digest(), Base64.DEFAULT));
+                    String key = Base64.encodeToString(digest.digest(), Base64.DEFAULT);
+                    Log.d("Keyhash",key);
+                    Toast.makeText(this, ""+key, Toast.LENGTH_SHORT).show();
+                    //email.setText(key);
                 }
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             } catch (NoSuchAlgorithmException e) {
                 e.printStackTrace();
-            }*/
+            }
 
         }
     }
