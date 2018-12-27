@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "178983458014",
+    "firebase_url": "https://facebookintegration-a0f5f.firebaseio.com",
+    "project_id": "facebookintegration-a0f5f",
+    "storage_bucket": "facebookintegration-a0f5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178983458014:android:f187d2d94dd445ea",
+        "android_client_info": {
+          "package_name": "com.ninositsolution.facebookintegration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178983458014-363pt9daft66kfn5rvtisbsjlkk0u86r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ninositsolution.facebookintegration",
+            "certificate_hash": "eebcf28092df161dc3a584997f4c756e0919cf58"
+          }
+        },
+        {
+          "client_id": "178983458014-ic82r82u27075flpprqj7u52ukdr6e6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2PEuYUjuzvUge74nDDf2SYQ-_c-ms9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178983458014-ic82r82u27075flpprqj7u52ukdr6e6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
